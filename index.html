@@ -2,12 +2,41 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <title>Hello GitHub Pages</title>
+  <title>Qiang (Kris) Zhou</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .author-card {
+      max-width: 560px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      background: #fafafa;
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+    }
+    .author-card h2 { margin: 0 0 0.5rem 0; font-size: 1.25rem; }
+    .author-card .affiliation { color: #555; margin-bottom: 0.5rem; }
+    .author-card .email { font-size: 0.9rem; color: #666; margin-bottom: 0.5rem; }
+    .author-card .field { display: inline-block; padding: 0.2rem 0.6rem; background: #e8f4f8; border-radius: 4px; font-size: 0.9rem; }
+    .author-card .scholar-link { margin-top: 1rem; font-size: 0.9rem; }
+    .author-card .scholar-link a { color: #4285f4; text-decoration: none; }
+    .author-card .scholar-link a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
   <h1>Hello GitHub Pages 🚀</h1>
   <button onclick="alert('OK')">点我</button>
+
+  <section class="author-card" aria-label="作者介绍">
+    <h2>Qiang (Kris) Zhou</h2>
+    <p class="affiliation">Assistant Professor, Renmin University of China</p>
+    <p class="email">Verified email at rmbs.ruc.edu.cn</p>
+    <span class="field">Marketing</span>
+    <p class="scholar-link">
+      <a href="https://scholar.google.com/citations?hl=en&user=HNPrerAAAAAJ" target="_blank" rel="noopener">Google Scholar →</a>
+    </p>
+  </section>
 
   <script src="main.js"></script>
 </body>
