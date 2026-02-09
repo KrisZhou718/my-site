@@ -2,92 +2,109 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Qiang (Kris) Zhou</title>
+  <title>周强 | Qiang (Kris) Zhou</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav class="nav">
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#teaching">Teaching</a>
-    <a href="#honors">Honors & Awards</a>
-    <a href="#talks">Talks</a>
-  </nav>
+  <div class="container">
 
-  <main class="container">
-    <header class="header">
-      <h1>Qiang (Kris) Zhou</h1>
-      <h2>周强</h2>
-    </header>
+    <!-- Language Switch -->
+    <div class="lang-switch">
+      <button onclick="setLang('zh')">中文</button>
+      <button onclick="setLang('en')">EN</button>
+    </div>
 
-    <section id="about" class="section">
-      <p class="lead">
-        Welcome! I am an Assistant Professor of Marketing at the
-        <a href="https://www.rmbs.ruc.edu.cn/" target="_blank" rel="noopener">Renmin Business School</a>,
-        <a href="https://www.ruc.edu.cn/" target="_blank" rel="noopener">Renmin University of China</a>.
-      </p>
-      <p>
-        I study platform markets, celebrity endorsements, cause-related marketing, and consumer behavior in digital environments. My work spans marketing strategy, advertising, and crowdfunding, with articles appearing in premier journals such as <strong><em>Journal of Marketing</em></strong>, <strong><em>Journal of the Academy of Marketing Science</em></strong>, <strong><em>Psychology & Marketing</em></strong>, and <strong><em>International Journal of Advertising</em></strong>.
-      </p>
-      <p>
-        I collaborate with scholars at institutions such as New York University, Texas Christian University, and the University of Texas at San Antonio. My dissertation "Two Essays on Value Creation in Platform Market" examined platform exploitation and service agent defection, with subsequent work published in the <em>Journal of Marketing</em>.
-      </p>
-      <p>
-        <strong>Email:</strong> <a href="mailto:zhouqiang@rmbs.ruc.edu.cn">zhouqiang@rmbs.ruc.edu.cn</a> (verified at rmbs.ruc.edu.cn)
-      </p>
-      <p>
-        <a href="https://scholar.google.com/citations?hl=en&user=HNPrerAAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-      </p>
-    </section>
+    <!-- Avatar -->
+    <div class="avatar">🎓</div>
 
-    <hr />
+    <!-- Header -->
+    <h1
+      data-zh="周强"
+      data-en="Qiang (Kris) Zhou">
+      周强
+    </h1>
 
-    <section id="research" class="section">
-      <h3>Research</h3>
-      <p>
-        My research focuses on value creation in platform markets, celebrity endorsements, cause-related marketing, and consumer psychology. I examine how service agents defect with customers from online platforms (e.g., <em>Journal of Marketing</em>), how psychological ownership and anthropomorphism affect product judgments (<em>Psychology & Marketing</em>), and how direct-speech appeals influence donation behavior in charity crowdfunding (<em>Journal of the Academy of Marketing Science</em>). I have also published reviews and agenda-setting work on celebrity endorsements and cause-related marketing in leading advertising and marketing communications outlets.
+    <p class="subtitle"
+       data-zh="中国人民大学 · 商学院 · 讲师"
+       data-en="Lecturer, Business School, Renmin University of China">
+      中国人民大学 · 商学院 · 讲师
+    </p>
+
+    <!-- About -->
+    <div class="card">
+      <h2 data-zh="个人简介" data-en="About Me">个人简介</h2>
+      <p
+        data-zh="我现任中国人民大学商学院讲师，研究方向为平台经济、服务营销与消费者行为。我的研究发表于 Journal of Marketing、Journal of Marketing Research 等国际顶级期刊。"
+        data-en="I am currently a Lecturer at the Business School of Renmin University of China. My research focuses on platform economy, service marketing, and consumer behavior, with publications in top journals such as Journal of Marketing and Journal of Marketing Research.">
+        我现任中国人民大学商学院讲师，研究方向为平台经济、服务营销与消费者行为。我的研究发表于 Journal of Marketing、Journal of Marketing Research 等国际顶级期刊。
       </p>
-    </section>
+    </div>
 
-    <section id="teaching" class="section">
-      <h3>Teaching</h3>
-      <p>
-        I teach courses in Marketing at Renmin University of China.
+    <!-- Education -->
+    <div class="card">
+      <h2 data-zh="教育经历" data-en="Education">教育经历</h2>
+      <ul>
+        <li
+          data-zh="德克萨斯大学圣安东尼奥分校 · 市场营销博士（2016–2021）"
+          data-en="Ph.D. in Marketing, University of Texas at San Antonio (2016–2021)">
+          德克萨斯大学圣安东尼奥分校 · 市场营销博士（2016–2021）
+        </li>
+        <li
+          data-zh="伯明翰大学 · 市场营销传播硕士（2010–2011）"
+          data-en="MSc in Marketing Communications, University of Birmingham (2010–2011)">
+          伯明翰大学 · 市场营销传播硕士（2010–2011）
+        </li>
+        <li
+          data-zh="宁波诺丁汉大学 · 国际商务管理学士（2006–2010）"
+          data-en="BSc in International Business Management, University of Nottingham Ningbo China (2006–2010)">
+          宁波诺丁汉大学 · 国际商务管理学士（2006–2010）
+        </li>
+      </ul>
+    </div>
+
+    <!-- Research -->
+    <div class="card">
+      <h2 data-zh="科研项目" data-en="Research Grants">科研项目</h2>
+      <p
+        data-zh="国家自然科学基金青年项目（72302227）：平台与互补产品捆绑的前因与后效（2024–2026，主持）"
+        data-en="National Natural Science Foundation of China (72302227): Antecedents and Consequences of Platform-Based Bundling of Complementary Products (2024–2026, PI)">
+        国家自然科学基金青年项目（72302227）：平台与互补产品捆绑的前因与后效（2024–2026，主持）
       </p>
-    </section>
+    </div>
 
-    <section id="honors" class="section">
-      <h3>Honors & Awards</h3>
-      <p>
-        <!-- Add awards as needed -->
-      </p>
-    </section>
+    <!-- Publications -->
+    <div class="card">
+      <h2 data-zh="代表性论文" data-en="Selected Publications">代表性论文</h2>
+      <ul>
+        <li>
+          Zhou, Q. (Kris). <em>Journal of Marketing</em>, 2022
+        </li>
+        <li>
+          Shi, H., Zhou, Q. (通讯作者). <em>Journal of Marketing Research</em>, 2026
+        </li>
+        <li>
+          Zhang, Z., Zhou, Q. (通讯作者). <em>Journal of the Academy of Marketing Science</em>, 2025
+        </li>
+        <li>
+          Zhang, Z., Zhou, Q. (通讯作者). <em>Psychology & Marketing</em>, 2023
+        </li>
+      </ul>
+    </div>
 
-    <section id="talks" class="section">
-      <h3>Talks</h3>
-      <p>
-        <!-- Add talks as needed -->
-      </p>
-    </section>
+    <!-- Footer -->
+    <footer>
+      <a href="https://github.com/你的用户名" target="_blank">GitHub</a> ·
+      <a href="mailto:your@email.com">Email</a>
+    </footer>
 
-    <hr />
+  </div>
 
-    <section class="section">
-      <h3>Education</h3>
-      <p>
-        Ph.D., The University of Texas at San Antonio, 2021
-      </p>
-    </section>
-
-    <section class="section">
-      <h3>Affiliations</h3>
-      <p>
-        Renmin University of China, Renmin Business School
-      </p>
-    </section>
-
-    <hr />
-  </main>
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll("[data-zh]").forEach(el => {
+        el.textContent = el.dataset[lang];
+      });
+    }
+  </script>
 </body>
 </html>
